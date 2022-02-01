@@ -127,6 +127,8 @@ find delivery -type f -name "*.yaml" -print0 | xargs -0 sed -i 's/type: LoadBala
 find delivery -type f -name "*.yaml" -print0 | xargs -0 sed -i 's/serviceType: LoadBalancer/serviceType: NodePort/g'
 ```
 
+TEST!
+
 ## Contributing
 
 See [CONTRIBUTING.md](CONTRIBUTING.md).
